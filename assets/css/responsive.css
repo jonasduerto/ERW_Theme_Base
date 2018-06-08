@@ -1,0 +1,85 @@
+
+
+
+
+/* Landscape tablets and medium desktops */
+@media (max-width:1199px) and (min-width:767px) {
+    #navigation>.container {
+        width: 95%;
+    }
+}
+@media (min-width: 768px) and (max-width:992px) {
+        .text-block-container {
+        top: 70%;
+        padding: 15px;
+    }
+    .content-block-style-1 .content-block-container {
+        padding: 15px;
+    }
+    .content-block-style-1 .image-block {
+        margin: -15px -15px 15px;
+    }
+    .container {max-width: 96%;}
+    .content-block-style-1.sticky-block {
+        margin-top: -80px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:767px) {
+    #navigation .navbar-toggle, #navigation .navbar-toggle:focus, #navigation .navbar-toggle:hover {
+        background-color: transparent;
+        border: none;
+    }
+    #navigation .navbar-toggle .icon-bar {
+        background-color: #009fe2;
+        width: 40px;
+        height: 3px;
+    }
+    #navigation .navbar-toggle:focus .icon-bar, #navigation .navbar-toggle:hover .icon-bar {
+        background-color: #0e5b7b;
+    }
+    #navigation .navbar-toggle .icon-bar+.icon-bar {
+        margin-top: 6px;
+    }
+    #navigation .navbar-brand,#navigation.affix .navbar-brand {
+        margin: 0px;
+        padding: 0px 0px 0px 13px;
+        max-width: 130px;
+        height: 63px;
+    }
+    #navigation.affix .navbar-nav > li > a, #navigation .navbar-nav > li > a {
+        line-height: 18px;
+        padding: 15px 0px 16px 0px;
+        text-align: center;
+        border-bottom: 1px solid #586c7c;
+    }
+
+    .text-block-container {
+        top: 70%;
+        padding: 15px 0;
+    }
+    .content-block-style-1 .content-block-container {
+        padding: 14px;
+    }
+    .content-block-style-1.sticky-block {
+        margin: 0 auto;
+    }
+
+}
+@media (max-width:480px) {
+    .h1.big, h1.big { font-size: 32px; }
+    .h2.big, h2.big { font-size: 28px; }
+    .h3.big, h3.big { font-size: 26px; }
+    .h4.big, h4.big { font-size: 24px; }
+    .h5.big, h5.big { font-size: 22px; }
+    .h6.big, h6.big { font-size: 19px; }
+    h1 { font-size: 28px; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 22px; }
+    h4 { font-size: 20px; }
+    h5 { font-size: 18px; }
+    h6 { font-size: 15px; }
+    body { font-size: 14px; }
+    #about-us .show-mobile{display: block;}
+    #about-us:before {display: none;}
+}
